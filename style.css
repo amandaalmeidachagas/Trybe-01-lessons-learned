@@ -3,16 +3,19 @@ body {
   margin: 0;
 }
 
-h1,
-h2 {
-  font-family: monospace;
+h1 , h2 {
+  font-family: Handlee, cursive;
 }
 
 #cabecalho {
-  background-color: #3A6351;
+  background-color: rgb(58, 99, 81);
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+p {
+  line-height: 120%;
 }
 
 #section {
@@ -33,12 +36,12 @@ h2 {
 
 .redes-sociais {
   display: flex;
-  justify-content:end;
+  justify-content: end;
   align-items: center;
 }
 
 h2 {
-  color: #3A6351;
+  color: rgb(58, 99, 81);
 }
 
 .licoes {
@@ -47,9 +50,8 @@ h2 {
 }
 
 #titulo {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
-  color: #A2B38B;
+  color: rgb(162, 179, 139);
   padding: 5px 0;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -57,8 +59,8 @@ h2 {
 }
 
 #minha_foto {
-   border-radius: 30%;
+  border-radius: 30%;
   object-fit: cover;
   object-position: top;
-  border: 10px solid #A2B38B;
+  border: 10px solid rgb(162, 179, 139);
 }
