@@ -64,3 +64,13 @@ h2 {
   object-position: top;
   border: 10px solid rgb(162, 179, 139);
 }
+table,th,td{
+  border:1px solid;
+}
+th , td {padding: 15px;
+        text-align: left;
+
+}
+th{
+  color:rgb(58, 99, 81); ;
+}
